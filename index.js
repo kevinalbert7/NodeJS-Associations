@@ -13,7 +13,6 @@ app.use('/associations', associationsRoutes)
 app.use('/messages', messagesRoutes)
 
 app.get('/', (req,res) => {
-    console.log(associations)
     res.json(associations)
 })
 
