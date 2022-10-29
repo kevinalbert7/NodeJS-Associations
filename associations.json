@@ -1,21 +1,21 @@
 [
     {
         "slug": "les-restos-du-coeur",
-        "associationName": "les restos du Coeur",
+        "name": "les restos du Coeur",
         "slogan": "On compte sur vous !",
         "descritption": "Les Restos du cœur, sont une association loi de 1901 à but non lucratif et reconnue d'utilité publique, créée en France par Coluche en 1985.", 
         "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/ad/Restos_du_coeur_Logo.svg/1200px-Restos_du_coeur_Logo.svg.png"
     },
     {
         "slug": "unicef",
-        "associationName": "unicef",
+        "name": "unicef",
         "slogan": "Pour chaque enfant, santé, éducation, égalité, protection, faisons avancer l'humanité",
         "descritption": "Unicef est une agence de l'Organisation des Nations Unies consacrée à l'amélioration et à la promotion de la condition des enfants. Lors de sa création le 11 décembre 1946",
         "image": "https://www.slogan.pub/img/brands/2899/1_Unicef.jpg"
     },
     {
         "slug": "konexio",
-        "associationName": "konexio",
+        "name": "konexio",
         "slogan": "Autonomie et solidarité par l'apprentissage du numérique",
         "descritption": "Konexio propose des formations gratuites aux compétences informatiques et métiers de la tech pour ouvrir à tous les opportunités du numérique.",
         "image": "https://numeriquesolidaire.fr/wp-content/uploads/2019/12/Logo-Konexio-Mail-1024x558.png"

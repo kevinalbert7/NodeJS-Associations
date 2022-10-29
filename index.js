@@ -1,16 +1,16 @@
-const express = require("express")
+const express = require('express')
 const app = express()
-const morgan = require("morgan")
-const cors = require ("cors")
+const morgan = require('morgan')
 const port = 5000
 
 const associationsRoutes = require('./routes/assiociations')
+const messagesRoutes = require('./routes/messages')
 
-app.use(express.json())
-app.use(cors())
 app.use(morgan('tiny'))
+app.use(express.json())
 
 app.use('/associations', associationsRoutes)
+app.use('/messages', messagesRoutes)
 
 app.get('/', (req,res) => {
     console.log(associations)
@@ -18,5 +18,5 @@ app.get('/', (req,res) => {
 })
 
 app.listen(port, () =>{
-    console.log(`server running at port ${port}`)
+    console.log(`server running on port ${port}`)
 })
